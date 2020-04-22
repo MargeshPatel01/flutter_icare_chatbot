@@ -1,0 +1,52 @@
+Question,Category,Sub_Category
+How do I find a new physician for myself?,Health Service Provider,Family_Practice
+How do I find pediatrician for my newborn?,Health Service Provider,Family_Practice
+Why do I have to pay a fee to transfer my health records?,Health Service Provider,Family_Practice
+Where is the nearest travel vaccine clinic?,Health Service Provider,Family_Practice
+Which urgent care is open near me?,Health Service Provider,Urgent_Care
+Can I go to any urgent care clinic?,Health Service Provider,Urgent_Care
+Can urgent care clinic give travel vaccine?,Health Service Provider,Urgent_Care
+ Find me the nearest ER/ Hospital.,Health Service Provider,ER_Hospital
+What is the average wait time in the nearest ER?,Health Service Provider,ER_Hospital
+"Can I do a referral for home care services for my elderly parents? Mom, mother, dad, father?…",Home and Community Care,Home_care_services
+Where do I call to get home care services?,Home and Community Care,Home_care_services
+Find the nearest CCAC? LHIN? OHT?,Home and Community Care,Home_care_services
+Who is my care coordinator?,Home and Community Care,Home_care_services
+ How do I get an assessment for my elderly parents?,Home and Community Care,Home_care_services
+How can I get more hours from the CCAC? LHIN? OHT?,Home and Community Care,Home_care_services
+Where do I get PSW care?,Home and Community Care,Home_care_services
+ Where do I get nurse care?,Home and Community Care,Home_care_services
+ Information in free government dentist services?,Non OHIP Service Providers,Dentistry
+What should my income level be to qualify for free dentistry?,Non OHIP Service Providers,Dentistry
+Optometry,Non OHIP Service Providers,Optometry
+Rehab Medicine.,Non OHIP Service Providers,Rehab_Medicine
+Speech and Language pathology,Non OHIP Service Providers,Speech_and_Language_pathology
+Chiropractic,Non OHIP Service Providers,Chiropractic
+Find me the closest pharmacy? That’s open?,Health Product Vendors,Pharmacy
+Does pharmacy offer drop in counseling?,Health Product Vendors,Pharmacy
+Find me a pharmacy that does routine vaccine.,Health Product Vendors,Pharmacy
+Find me a pharmacy that has same day delivery?,Health Product Vendors,Pharmacy
+"	Find me a pharmacy that offers brand name medication. ",Health Product Vendors,Pharmacy
+Where do I find the right walker? Wheel-Chair? Hoyer lift? Ceiling lift? Stair lift? CPAP machine? Prosthetics?,Health Product Vendors,Medical_Product_Search
+How do I decide on which walker to buy? Wheel-Chair? Hoyer lift? Ceiling lift? CPAP machine? Stair lift? Prosthetics?,Health Product Vendors,Medical_Product_Search
+How do I get government funding for my ……?,Health Product Vendors,Medical_Product_Search
+Find me an Online medical supplier,Health Product Vendors,Medical_Supplier
+Local me an local medical supplier,Health Product Vendors,Medical_Supplier
+Good day,,Bye
+Bye bye,,Bye
+buh bye,,Bye
+bye,,Bye
+see ya,,Bye
+see you,,Bye
+take care,,Bye
+Hi,,Greeting
+Hello,,Greeting
+Hey,,Greeting
+Hi there,,Greeting
+Greetings,,Greeting
+Salutations,,Greeting
+good morning,,Greeting
+bonjour,,Greeting
+howdy,,Greeting
+good evening,,Greeting
+good afternoon,,Greeting
