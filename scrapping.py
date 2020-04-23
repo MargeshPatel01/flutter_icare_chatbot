@@ -6,11 +6,13 @@ Created on Fri Feb 28 14:21:59 2020
 @author: dilsher
 """
 
-
 from selenium import webdriver 
 from selenium.webdriver.common.keys import Keys
-
-driver = webdriver.Chrome(executable_path='./chromedriver.exe')
+from selenium.webdriver.chrome.options import Options
+options_headless = Options()
+options_headless.add_argument('--headless')
+options_headless.add_argument('--disable-gpu')  # Last I checked this was necessary.
+driver = webdriver.Chrome(executable_path='chromedriver.exe', options = options_headless  )
     
 
 def get_url(postal_code):
