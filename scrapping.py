@@ -9,11 +9,16 @@ Created on Fri Feb 28 14:21:59 2020
 from selenium import webdriver 
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
-options_headless = Options()
+
+GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
+CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
+
+# options_headless = Options()
+options_headless = webdriver.ChromeOptions()
 options_headless.add_argument('--headless')
 options_headless.add_argument('--disable-gpu')  # Last I checked this was necessary.
-driver = webdriver.Chrome()
-    
+chrome_options.add_argument('--no-sandbox')
+browser = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)    
 
 def get_url(postal_code):
 
