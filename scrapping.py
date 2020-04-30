@@ -12,13 +12,12 @@ from selenium.webdriver.chrome.options import Options
 
 GOOGLE_CHROME_PATH = '/app/.apt/usr/bin/google_chrome'
 CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
-
-# options_headless = Options()
-options_headless = webdriver.ChromeOptions()
-options_headless.add_argument('--headless')
+chrome_options = webdriver.ChromeOptions()
+options_headless = Options()
+options_headless.add_argument('--headless'
 options_headless.add_argument('--disable-gpu')  # Last I checked this was necessary.
-chrome_options.add_argument('--no-sandbox')
-browser = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, chrome_options=chrome_options)    
+# chrome_options.add_argument('--no-sandbox')
+browser = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, option_headless=chrome_options)    
 
 def get_url(postal_code):
 
