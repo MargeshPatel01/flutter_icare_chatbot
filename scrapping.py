@@ -15,7 +15,7 @@ CHROMEDRIVER_PATH = '/app/.chromedriver/bin/chromedriver'
 chrome_options = webdriver.ChromeOptions()
 options_headless = Options()
 options_headless.add_argument('--disable-gpu')
-options_headless.add_argument('--headless'
+options_headless.add_argument('--headless')
   # Last I checked this was necessary.
 # chrome_options.add_argument('--no-sandbox')
 browser = webdriver.Chrome(execution_path=CHROMEDRIVER_PATH, option_headless=chrome_options)    
