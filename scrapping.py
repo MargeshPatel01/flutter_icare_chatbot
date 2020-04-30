@@ -18,7 +18,7 @@ options_headless.add_argument('--disable-gpu')
 options_headless.add_argument('--headless')
 # Last I checked this was necessary.
 # chrome_options.add_argument('--no-sandbox')
-browser = webdriver.Chrome(executable_path=CHROMEDRIVER_PATH)    
+browser = webdriver.Chrome(executable_path='chromedriver')    
 
 def get_url(postal_code):
 
